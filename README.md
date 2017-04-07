@@ -1,10 +1,10 @@
-###Formation Java EPF Project GuideLines
+### Formation Java EPF Project GuideLines
 >EPF 2015 by Alexandre N & Christophe D
 
-####TournamentManager
+#### TournamentManager
 Le but de ce projet est de créer un gestionnaire de tournoi pour sport collectif ou inviduel. Ce gestionnaire de tournoi doit permettre d'organiser les rencontres de saisir les scores et de sauvegarder les informations relatives aux équipes.
 
-####User stories
+#### User stories
 >Les "user stories" permettent de décrire une fonctionnalité que vous devez créer du point de vue d'un utilisateur quelconque.
 
 * Je suis capable de créer un nouveau tournoi en choisissant le nombre d'équipe et l'organisation de celui-ci.
@@ -22,19 +22,19 @@ Le but de ce projet est de créer un gestionnaire de tournoi pour sport collecti
 Poules de 4 équipes, toutes les équipes se rencontrent et les deux meilleures continuent le tournoi. (Une victoire vaut trois points, un nul un point, et une défaite zéro)
 La sélection des équipes pour les rencontres à chaque tour peut être définie initialement ou tirée au hasard à chaque tour.
 
-####Clients
+#### Clients
 Il faudra faire deux clients pour ce projet, un premier client console (gestion complète du projet en utilisant la classe Scanner de java), puis un deuxième client avec une interface graphique (en utilisant SWING)
 
-####Notes
+#### Notes
 * Lorsqu'il y a un nombre impair d'équipe ou de poule le passage au tour suivant doit être géré automatiquement.
 * Il est conseillé d'utiliser vos propres types d'erreur pour que votre code soit plus propre et ait plus de sens
 
-####Bonus
+#### Bonus
 * Gérer les scores des équipes et conserver un "goal average" permettant d'afficher des statistiques par joueur ou équipe à la fin du tournoi.
 * Créer une interface de Web Services JAX-WS pour permettre d'accéder à votre application.
 * Ajouter d'autres types de tournoi.
 
-####Rendu
+#### Rendu
 Projet à rendre avant le 22/02/2015 à 23h55.
 Modalité de rendu:
 * Envoyer un email avec les membres de l'équipe en copie aux adresses : anunesse@excilys.com & cdeverre@excilys.com
